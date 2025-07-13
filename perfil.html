@@ -7,109 +7,169 @@
     <link rel="stylesheet" href="styles.css">
     <title>Atividade 4: Página de Perfil Pessoal</title>
     <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-    <header class="header"> 
-        <div class="header-content"> 
-        <h1>Jessica 
-            <br>Sobreira</h1>
-        <img src="assets/Jessica.png" alt="Minha foto">
+    <header class="header">
+        <div class="header-content">
+            <h1>Jessica
+                <br>Sobreira
+            </h1>
+            <img src="assets/Jessica.png" alt="Minha foto">
+        </div>
+
+        <div class="hamburger-menu" id="hamburger-icon">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
+        <nav class="nav-menu" id="nav-menu">
+            <ul>
+                <li><a href="#sobremim">Sobre mim</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main-layout-wrapper">
+        <main>
+            <section id="sobremim">
+                <h2>Sobre mim</h2>
+                <p>Desenvolvedora Front-end com foco em HTML, CSS e JavaScript. Estou sempre em busca de novos desafios
+                    e
+                    oportunidades para me tornar uma desenvolvedora mais habilidosa e criativa. Sou Jéssica Sobreira,
+                    uma
+                    jornalista apaixonada por comunicação e, atualmente, em transição para a área de Tecnologia da
+                    Informação. Minha jornada começou na Universidade do Vale do Rio dos Sinos (Unisinos), onde me
+                    formei em
+                    Jornalismo, e posteriormente, busquei aprimorar meus conhecimentos com duas pós-graduações pela
+                    Uniasselvi, nas áreas de Comunicação Empresarial e Marketing Digital. Desde 2011, venho construindo
+                    minha carreira, com experiências em assessorias de imprensa, cobertura de eventos, produção de
+                    reportagens para diferentes mídias, e também no universo do marketing digital.</p>
+
+                <p>A constante busca por aperfeiçoamento profissional me levou a uma fascinante transição para a área de
+                    Tecnologia da Informação. Atualmente, estive imersa nos estudos de Front-end na renomada escola
+                    Alura,
+                    além de participar da 15ª edição do Programa Starter da Growdev, focado em Full Stack.
+                    Paralelamente, estive engajada no Bootcamp Potência Tech iFood da DIO. No momento, estudo na
+                    iniciativa inovadora da +PraTI, em parceria com a Codifica Edu.</p>
+
+                <p>Ao me deparar com o Front-end, descobri uma paixão pela criação de landing pages, relembrando o
+                    processo
+                    de diagramação de um jornal. Essa percepção fortaleceu meu interesse na relação entre Comunicação e
+                    Tecnologia, motivando-me a explorar mais a fundo esse universo.</p>
+            </section>
+
+            <section id="habilidades">
+                <h2>Habilidades</h2>
+                <ul>
+                    <li><i class="fab fa-html5"></i> HTML</li>
+                    <li><i class="fab fa-css3-alt"></i> CSS</li>
+                    <li><i class="fab fa-js"></i> JavaScript</li>
+                    <li><i class="fab fa-git-alt"></i> Git</li>
+                    <li><i class="fab fa-github"></i> GitHub</li>
+                    <li><i class="fab fa-bootstrap"></i> Bootstrap</li>
+                    <li><i class="fab fa-react"></i> React</li>
+                    <li><i class="fab fa-node-js"></i> Node.js</li>
+                    <li><i class="fas fa-database"></i> SQL</li>
+                    <li><i class="fab fa-python"></i> Python</li>
+                    <li><i class="fab fa-java"></i> Java</li>
+                    <li><i class="fas fa-server"></i> Express.js</li>
+                </ul>
+            </section>
+
+            <section id="projetos">
+                <h2>Meus Projetos</h2>
+                <div class="projetos-grid">
+                    <a href="https://magenta-tartufo-2e704c.netlify.app/" target="_blank" class="projeto-card">
+                        <figure>
+                            <img src="assets/pokemon.png" alt="Preview do projeto Pokémon">
+                            <figcaption>Projeto Pokémon</figcaption>
+                        </figure>
+                    </a>
+
+                    <a href="https://portfolio-dev-virid-five.vercel.app/" target="_blank" class="projeto-card">
+                        <figure>
+                            <img src="assets/portfolio.png" alt="Preview do meu Portfólio">
+                            <figcaption>Meu Portfólio Pessoal</figcaption>
+                        </figure>
+                    </a>
+
+                    <a href="https://dragon-ball-cyan.vercel.app/" target="_blank" class="projeto-card">
+                        <figure>
+                            <img src="assets/dragon-ball.png" alt="Preview do projeto Dragon Ball">
+                            <figcaption>Coleção Dragon Ball</figcaption>
+                        </figure>
+                    </a>
+
+                    <a href="https://the-news-lake.vercel.app/" target="_blank" class="projeto-card">
+                        <figure>
+                            <img src="assets/news.png" alt="Preview do projeto The News">
+                            <figcaption>The News</figcaption>
+                        </figure>
+                    </a>
+                </div>
+            </section>
+
+            <section id="contato">
+                <h2>Entre em Contato!</h2>
+                <div class="contato-card">
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/jessicasobreira/" target="_blank"><i
+                                    class="fab fa-linkedin"></i> LinkedIn</a></li>
+                        <li><a href="https://github.com/jessica-sobreira" target="_blank"><i class="fab fa-github"></i>
+                                GitHub</a></li>
+                        <li><a href="https://www.instagram.com/jsscsb/" target="_blank"><i class="fab fa-instagram"></i>
+                                Instagram</a></li>
+                    </ul>
+                </div>
+            </section>
+
+            <article id="depoimentos">
+                <h2>Depoimentos</h2>
+                <blockquote>
+                    <p>"A Jéssica é uma colega muito querida, comunicativa e trabalha bem em grupo. Todas as vezes que
+                        trabalhamos juntas foi muito produtivo, ela tem boa habilidade interpessoal e ajuda os colegas.
+                        É uma profissional proativa, e muito dedicada!"</p>
+                    <footer>— Tanara M.</footer>
+                </blockquote>
+                <blockquote>
+                    <p>"A Jéssica é excepcional em tudo o que faz! Tenho a oportunidade de estudar junto dela, e tive o
+                        prazer de realizar um trabalho em dupla com ela. Posso dizer que é uma desenvolvedora focada em
+                        fazer o seu melhor, em desenvolver um código de forma limpa, de ter ideias boas para o front-end
+                        e de organização de um trabalho como um todo."</p>
+                    <footer>— Samuel R.</footer>
+                </blockquote>
+            </article>
+        </main>
+        <aside id="redes-sociais">
+            <h2>Redes Sociais</h2>
+            <div class="redes-sociais-container">
+                <a href="https://www.linkedin.com/in/jessicasobreira/" target="_blank" class="social-button linkedin">
+                    <i class="fab fa-linkedin-in"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/jessica-sobreira" target="_blank" class="social-button github">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://portfolio-dev-virid-five.vercel.app/" target="_blank" class="social-button portfolio">
+                    <i class="fas fa-globe"></i>
+                    <span>Portfólio</span>
+                </a>
+            </div>
+        </aside>
     </div>
-    
-    <div class="hamburger-menu" id="hamburger-icon">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-    </div>
-
-    <nav class="nav-menu" id="nav-menu"> <ul>
-            <li><a href="#sobremim">Sobre mim</a></li>
-            <li><a href="#habilidades">Habilidades</a></li>
-            <li><a href="#projetos">Projetos</a></li>
-            <li><a href="#contato">Contato</a></li>
-        </ul>
-    </nav>
-</header>
-    <main>
-        <section id="sobremim">
-            <h2>Sobre mim</h2>
-            <p>Desenvolvedora Front-end com foco em HTML, CSS e JavaScript. Estou sempre em busca de novos desafios e
-                oportunidades para me tornar uma desenvolvedora mais habilidosa e criativa.</p>
-        </section>
-
-        <section id="habilidades">
-            <h2>Habilidades</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Git</li>
-                <li>GitHub</li>
-                <li>Bootstrap</li>
-                <li>React</li>
-                <li>Node.js</li>
-                <li>Express.js</li>
-                <li>SQL</li>
-                <li>Python</li>
-                <li>Java</li>
-            </ul>
-        </section>
-
-        <section id="projetos">
-            <h2>Projetos</h2>
-            <ul>
-                <li><a href="https://magenta-tartufo-2e704c.netlify.app/" target="_blank">Pokemon</a></li>
-                <li><a href="https://portfolio-dev-virid-five.vercel.app/" target="_blank">Meu Portfólio</a></li>
-                <li><a href="https://dragon-ball-cyan.vercel.app/" target="_blank">Dragon Ball</a></li>
-                <li><a href="https://the-news-lake.vercel.app/" target="_blank">The News</a></li>
-                <li><a href="https://solar-system-azure-beta.vercel.app/" target="_blank">Sistema Solar</a></li>
-            </ul>
-
-        </section>
-
-        <section id="contato">
-            <h2>Contato</h2>
-            <ul>
-                <li><a href="https://www.linkedin.com/in/jessicasobreira/" target="_blank">Linkedin</a></li>
-                <li><a href="https://github.com/jessica-sobreira" target="_blank">GitHub</a></li>
-                <li><a href="https://www.instagram.com/jessica_sobreira/" target="_blank">Instagram</a></li>
-            </ul>
-        </section>
-
-        <article id="depoimentos">
-            <h2>Depoimentos</h2>
-
-            <blockquote>
-                <p>"A Jéssica é uma colega muito querida, comunicativa e trabalha bem em grupo. Todas as vezes que
-                    trabalhamos juntas foi muito produtivo, ela tem boa habilidade interpessoal e ajuda os colegas. É
-                    uma profissional proativa, e muito dedicada!"</p>
-                <footer>— Tanara M.</footer>
-            </blockquote>
-
-            <blockquote>
-                <p>"A Jéssica é excepcional em tudo o que faz! Tenho a oportunidade de estudar junto dela, e tive o
-                    prazer de realizar um trabalho em dupla com ela. Posso dizer que é uma desenvolvedora focada em
-                    fazer o seu melhor, em desenvolver um código de forma limpa, de ter ideias boas para o front-end e
-                    de organização de um trabalho como um todo."</p>
-                <footer>— Samuel R.</footer>
-            </blockquote>
-        </article>
-    </main>
-
-    <aside id="redes-sociais">
-        <a href="https://www.linkedin.com/in/jessicasobreira/">Linkedin</a>
-        <a href="https://github.com/jessica-sobreira">GitHub</a>
-        <a href="https://portfolio-dev-virid-five.vercel.app/">Potfólio</a>
-    </aside>
-
     <footer id="rodape">
         <p>&copy; Jessica Sobreira, 2025.</p>
-
     </footer>
 
     <script src="script.js"></script>
-
 </body>
 
 </html>
