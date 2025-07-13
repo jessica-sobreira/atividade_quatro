@@ -18,9 +18,9 @@ O repositório está organizado da seguinte forma:
 
 ### 🎯 Requisitos do Projeto
 
-#### 1. HTML5 Semântico (`perfil.html`)
+#### 1. HTML5 Semântico (`index.html`)
 
-O arquivo `perfil.html` foi construído utilizando as seguintes tags semânticas para uma organização clara e significativa do conteúdo:
+O arquivo `index.html` foi construído utilizando as seguintes tags semânticas para uma organização clara e significativa do conteúdo:
 
 * `<header>`: Para o cabeçalho principal, incluindo nome, foto e um slogan.
 * `<nav>`: Para o menu de navegação interna, com âncoras para as diferentes seções da página.
