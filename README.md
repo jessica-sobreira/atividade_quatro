@@ -10,7 +10,7 @@ Este repositório contém os arquivos desenvolvidos para a criação de um **Por
 
 O repositório está organizado da seguinte forma:
 
-* `perfil.html`: Contém a estrutura HTML semântica do portfólio.
+* `index.html`: Contém a estrutura HTML semântica do portfólio.
 * `styles.css`: Contém todo o estilo CSS, incluindo layout e responsividade.
 * `README.md`: Este arquivo, com a descrição do projeto.
 
